@@ -4,8 +4,8 @@
     ---------------------
 */
 
-var messageTable = "X1675";
-var messageContainer = "X9303";
+var messageTable = "X2803";
+var messageContainer = "X1675";
 var messageTime = "X7941";
 var textBox = "X9225";
 var messageButton = "X1117";
