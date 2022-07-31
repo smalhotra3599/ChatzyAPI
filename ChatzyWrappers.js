@@ -4,13 +4,15 @@
     ---------------------
 */
 
-var messageTable = "X2877";
-var messageContainer = "X4191";
+var messageTable = "X3793";
+var messageContainer = "X2686";
+var messageTime = "X5646";
+var textBox = "X1664";
+var messageButton = "X6780";
+
+
 var popup = "X1311";
-var messageTime = "X9887";
-var messageButton = "X2183";
 var PMTag = "X3989";
-var textBox = "X3838";
 var visitorTable = "X4948";
 
 /*
@@ -60,7 +62,7 @@ function postMessage(message) {
             message = message.replace(HTMLTags[tag],ChatzyTags[tag]);
         }
     }
-    X4374(message);
+    X6593(message);
 }
 
 // Sets the user's current status, remembered if perm is true.
