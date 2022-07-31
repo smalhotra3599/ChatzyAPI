@@ -4,11 +4,11 @@
     ---------------------
 */
 
-var messageTable = "X3793";
-var messageContainer = "X2686";
-var messageTime = "X5646";
-var textBox = "X1664";
-var messageButton = "X6780";
+var messageTable = "X1675";
+var messageContainer = "X9303";
+var messageTime = "X7941";
+var textBox = "X9225";
+var messageButton = "X1117";
 
 
 var popup = "X1311";
