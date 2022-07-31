@@ -44,12 +44,12 @@ function elementsByClass(elementClass) {
 
 // Removes the user from whatever room they are currently in
 function leaveChat() {
-    X1315("X2213");
+    X2872("X7397");
 }
 
 // Closes whatever popup box is currently on the screen, if there is one.
 function closePopup() {
-    X6784();
+    X4597();
 }
 
 // Posts a message to chat. All basic bold, italic, and strikethrough tags will be replaced with Chatzy ones
@@ -62,7 +62,11 @@ function postMessage(message) {
             message = message.replace(HTMLTags[tag],ChatzyTags[tag]);
         }
     }
-    X6593(message);
+    
+    var textBox = elementByID("X9225");
+    textBox.value = message;
+    
+    X8508();
 }
 
 // Sets the user's current status, remembered if perm is true.
